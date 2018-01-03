@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+h2{
+    background-color: #33b5e5;
+}
+h4{
+    text-align:center;
+}
+p{
+    text-align: justify;
+    
+}
+img{
+    width:165px;
+    height:165px;
+    display: block;
+    margin: 0 auto;
+}
+/**desktop**/
+div{
+    width:33.33%;
+    float: left;
+    padding: 15px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    div {
+        width: 100%;
+        padding:0px;
+    }
+    img{
+        display:none;
+    }
+    h4{
+        text-align:left;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    /* For mobile phones: */
+    div {
+        width: 100%;
+        padding:0px;
+    }
+    img{
+        float:left;
+        padding-right:15px;
+    
+    }
+    h4{
+        text-align:left;
+    }
+        .img-div2{
+        float:right;
+        padding-left:15px;
+    }
+}
